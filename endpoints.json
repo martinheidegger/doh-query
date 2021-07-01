@@ -1,0 +1,497 @@
+{
+  "cloudflare": {
+    "host": "cloudflare-dns.com",
+    "docs": "https://developers.cloudflare.com/1.1.1.1/dns-over-https",
+    "cors": true
+  },
+  "cloudflareFamily": {
+    "host": "family.cloudflare-dns.com",
+    "docs": "https://developers.cloudflare.com/1.1.1.1/1.1.1.1-for-families/setup-instructions/dns-over-https",
+    "cors": true,
+    "filter": true
+  },
+  "cloudflareSecurity": {
+    "host": "security.cloudflare-dns.com",
+    "docs": "https://developers.cloudflare.com/1.1.1.1/1.1.1.1-for-families/setup-instructions/dns-over-https",
+    "cors": true,
+    "filter": true
+  },
+  "cloudflareEth": {
+    "host": "eth.resolver.cloudflare-eth.com",
+    "docs": "https://www.cloudflare.com/distributed-web-gateway/#ethereum-gateway",
+    "cors": true,
+    "filter": true
+  },
+  "aAndA": {
+    "host": "dns.aa.net.uk",
+    "docs": "https://www.aa.net.uk/legal/dohdot-disclaimer/",
+    "filter": true
+  },
+  "usablePrivacy": {
+    "host": "adfree.usableprivacy.net",
+    "docs": "https://docs.usableprivacy.com",
+    "filter": true
+  },
+  "adguard": {
+    "host": "dns.adguard.com",
+    "docs": "https://adguard.com/en/adguard-dns/overview.html",
+    "filter": true
+  },
+  "adguardFamily": {
+    "host": "dns-family.adguard.com",
+    "docs": "https://adguard.com/en/adguard-dns/overview.html",
+    "filter": true
+  },
+  "adguardUnfiltered": {
+    "host": "dns-unfiltered.adguard.com",
+    "docs": "https://adguard.com/en/adguard-dns/overview.html"
+  },
+  "ahadnsIn": {
+    "host": "doh.in.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "India"
+  },
+  "ahadnsIt": {
+    "host": "doh.it.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "Italy"
+  },
+  "ahadnsEs": {
+    "host": "doh.es.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "Spain"
+  },
+  "ahadnsNo": {
+    "host": "doh.no.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "Norway"
+  },
+  "ahadnsNl": {
+    "host": "doh.nl.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "Netherlands"
+  },
+  "ahadnsPl": {
+    "host": "doh.pl.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "Poland"
+  },
+  "ahadnsNy": {
+    "host": "doh.ny.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "New York"
+  },
+  "ahadnsChi": {
+    "host": "doh.chi.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "Chicago"
+  },
+  "ahadnsAu": {
+    "host": "doh.au.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "Australia"
+  },
+  "ahadnsLa": {
+    "host": "doh.la.ahadns.net",
+    "docs": "https://ahadns.com/dns-over-https/",
+    "cors": true,
+    "filter": true,
+    "location": "Los Angeles"
+  },
+  "alidns": {
+    "host": "dns.alidns.com",
+    "docs": "https://alidns.com/knowledge?type=SETTING_DOCS#umpt6",
+    "cors": true,
+    "filter": true,
+    "location": "China"
+  },
+  "amsNl": {
+    "host": "dnsnl.alekberg.net",
+    "docs": "https://alekberg.net/doh",
+    "location": "Amsterdam"
+  },
+  "amsSe": {
+    "host": "dnsse.alekberg.net",
+    "docs": "https://alekberg.net/doh",
+    "location": "Sweden"
+  },
+  "amsEs": {
+    "host": "dnses.alekberg.net",
+    "docs": "https://alekberg.net/doh",
+    "location": "Spain"
+  },
+  "arapurayil": {
+    "host": "dns.arapurayil.com",
+    "docs": "https://www.dns.arapurayil.com/",
+    "filter": true
+  },
+  "digitaleGesellschaft": {
+    "host": "dns.digitale-gesellschaft.ch",
+    "docs": "https://www.digitale-gesellschaft.ch/dns",
+    "cors": true,
+    "location": "Switzerland"
+  },
+  "dnsForFamily": {
+    "host": "dns-doh.dnsforfamily.com",
+    "docs": "https://dnsforfamily.com/",
+    "filter": true
+  },
+  "dnsForge": {
+    "host": "dnsforge.de",
+    "docs": "https://dnsforge.de/",
+    "cors": true,
+    "filter": true,
+    "location": "Germany"
+  },
+  "dnsHome": {
+    "host": "dns.dnshome.de",
+    "docs": "https://www.dnshome.de/doh-dot-public-resolver.php",
+    "location": "Germany"
+  },
+  "dnsPod": {
+    "host": "doh.pub",
+    "docs": "https://www.dnspod.cn/Products/Public.DNS?lang=en",
+    "cors": true,
+    "filter": true,
+    "location": "China"
+  },
+  "blahDnsCh": {
+    "host": "doh-ch.blahdns.com",
+    "docs": "https://blahdns.com/",
+    "cors": true,
+    "filter": true,
+    "location": "Switzerland"
+  },
+  "blahDnsSg": {
+    "host": "doh-sg.blahdns.com",
+    "docs": "https://blahdns.com/",
+    "cors": true,
+    "filter": true,
+    "location": "Singapore"
+  },
+  "blahDnsJp": {
+    "host": "doh-jp.blahdns.com",
+    "docs": "https://blahdns.com/",
+    "cors": true,
+    "filter": true,
+    "location": "Japan"
+  },
+  "blahDnsDe": {
+    "host": "doh-de.blahdns.com",
+    "docs": "https://blahdns.com/",
+    "cors": true,
+    "filter": true,
+    "location": "Germany"
+  },
+  "blahDnsFi": {
+    "host": "doh-fi.blahdns.com",
+    "docs": "https://blahdns.com/",
+    "cors": true,
+    "filter": true,
+    "location": "Finland"
+  },
+  "cleanBrowsingSecurity": {
+    "host": "doh.cleanbrowsing.org",
+    "docs": "https://cleanbrowsing.org/guides/dnsoverhttps",
+    "path": "/doh/security-filter/",
+    "cors": true,
+    "filter": true
+  },
+  "cleanBrowsingFamily": {
+    "host": "doh.cleanbrowsing.org",
+    "docs": "https://cleanbrowsing.org/guides/dnsoverhttps",
+    "path": "/doh/family-filter/",
+    "cors": true,
+    "filter": true
+  },
+  "cleanBrowsingAdult": {
+    "host": "doh.cleanbrowsing.org",
+    "docs": "https://cleanbrowsing.org/guides/dnsoverhttps",
+    "path": "/doh/adult-filter/",
+    "cors": true,
+    "filter": true
+  },
+  "appliedPrivacy": {
+    "host": "doh.applied-privacy.net",
+    "docs": "https://applied-privacy.net/services/dns/",
+    "path": "/query",
+    "location": "Austria"
+  },
+  "ffmuc": {
+    "host": "doh.ffmuc.net",
+    "docs": "https://ffmuc.net/wiki/doku.php?id=knb:dohdot",
+    "location": "Germany"
+  },
+  "tiarap": {
+    "host": "doh.tiar.app",
+    "docs": "https://tiarap.org/",
+    "filter": true
+  },
+  "tiarapJp": {
+    "host": "jp.tiar.app",
+    "docs": "https://jp.tiar.app/",
+    "filter": true,
+    "location": "Japan"
+  },
+  "google": {
+    "host": "dns.google",
+    "docs": "https://developers.google.com/speed/public-dns/docs/doh/",
+    "cors": true
+  },
+  "he": {
+    "host": "ordns.he.net",
+    "docs": "https://dns.he.net/",
+    "log": true
+  },
+  "iij": {
+    "host": "public.dns.iij.jp",
+    "docs": "https://public.dns.iij.jp/",
+    "filter": true,
+    "log": true,
+    "location": "Japan"
+  },
+  "libredns": {
+    "host": "doh.libredns.gr",
+    "docs": "https://libredns.gr/",
+    "location": "Germany"
+  },
+  "librednsAds": {
+    "host": "doh.libredns.gr",
+    "docs": "https://libredns.gr/",
+    "path": "/ads",
+    "filter": true,
+    "location": "Germany"
+  },
+  "linuxSec": {
+    "host": "doh.linuxsec.org",
+    "docs": "https://doh.linuxsec.org/",
+    "cors": true,
+    "filter": true,
+    "location": "Indonesia"
+  },
+  "linuxSecAdGuard": {
+    "host": "doh.linuxsec.org",
+    "docs": "https://doh.linuxsec.org/",
+    "path": "/adguard",
+    "cors": true,
+    "filter": true,
+    "location": "Indonesia"
+  },
+  "njalla": {
+    "host": "dns.njal.la",
+    "docs": "https://dns.njal.la/",
+    "location": "Sweden"
+  },
+  "opendns": {
+    "host": "doh.opendns.com",
+    "docs": "https://support.opendns.com/hc/en-us/articles/360038086532-Using-DNS-over-HTTPS-DoH-with-OpenDNS"
+  },
+  "opendnsFamily": {
+    "host": "doh.familyshield.opendns.com",
+    "docs": "https://support.opendns.com/hc/en-us/articles/360038086532-Using-DNS-over-HTTPS-DoH-with-OpenDNS",
+    "filter": true
+  },
+  "powerDNS": {
+    "host": "doh.powerdns.org",
+    "docs": "https://powerdns.org/",
+    "filter": true
+  },
+  "sebyVultr": {
+    "host": "doh.seby.io",
+    "docs": "https://dns.seby.io/",
+    "port": 8443,
+    "cors": true,
+    "filter": true,
+    "location": "Sydney"
+  },
+  "sebyOVH": {
+    "host": "doh-2.seby.io",
+    "docs": "https://dns.seby.io/",
+    "cors": true,
+    "filter": true,
+    "location": "Sydney"
+  },
+  "quad9": {
+    "host": "dns10.quad9.net",
+    "docs": "https://quad9.net/service/service-addresses-and-features"
+  },
+  "quad9Ads": {
+    "host": "dns.quad9.net",
+    "docs": "https://quad9.net/service/service-addresses-and-features",
+    "filter": true
+  },
+  "switchCh": {
+    "host": "dns.switch.ch",
+    "docs": "https://www.switch.ch/security/info/public-dns/",
+    "filter": true,
+    "location": "Switzerland"
+  },
+  "yepdns": {
+    "host": "sg.yepdns.com",
+    "docs": "https://get.yepdns.com/",
+    "filter": true,
+    "location": "Singapore"
+  },
+  "lavaDnsEU1": {
+    "host": "eu1.dns.lavate.ch",
+    "docs": "https://dns.lavate.ch/",
+    "location": "Helsinki"
+  },
+  "controlId": {
+    "host": "freedns.controld.com",
+    "docs": "https://controld.com/",
+    "path": "/p0"
+  },
+  "controlIdMw": {
+    "host": "freedns.controld.com",
+    "docs": "https://controld.com/",
+    "path": "/p1",
+    "filter": true
+  },
+  "controlIdAds": {
+    "host": "freedns.controld.com",
+    "docs": "https://controld.com/",
+    "path": "/p2",
+    "filter": true
+  },
+  "controlIdSoc": {
+    "host": "freedns.controld.com",
+    "docs": "https://controld.com/",
+    "path": "/p3",
+    "filter": true
+  },
+  "rubyfish": {
+    "host": "rubyfish.cn",
+    "docs": "https://www.rubyfish.cn/dns/solutions/",
+    "cors": true,
+    "filter": true,
+    "log": true,
+    "location": "China"
+  },
+  "uncensoredAny": {
+    "host": "anycast.censurfridns.dk",
+    "docs": "https://blog.uncensoreddns.org/"
+  },
+  "uncensoredUni": {
+    "host": "unicast.censurfridns.dk",
+    "docs": "https://blog.uncensoreddns.org/",
+    "location": "Copenhagen"
+  },
+  "dnssb": {
+    "host": "doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true
+  },
+  "dnssbGlobal": {
+    "host": "doh.dns.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true
+  },
+  "dbssbDeDus": {
+    "host": "de-dus.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Düsseldorf"
+  },
+  "dnssbDeFra": {
+    "host": "de-fra.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Frankfurt"
+  },
+  "dnssbNlAms": {
+    "host": "nl-ams.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Amsterdam"
+  },
+  "dnssbNlAms2": {
+    "host": "nl-ams2.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Amsterdam"
+  },
+  "dnssbUkLon": {
+    "host": "uk-lon.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "London"
+  },
+  "dnssbEeTll": {
+    "host": "ee-tll.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Tallinn"
+  },
+  "dnssbJpKix": {
+    "host": "jp-kix.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Osaka"
+  },
+  "dnssbHkHkg": {
+    "host": "hk-hkg.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Hong Kong"
+  },
+  "dnssbAuSyd": {
+    "host": "au-syd.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Sydney"
+  },
+  "dnssbUsChi": {
+    "host": "us-chi.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Chicago"
+  },
+  "dnssbInBlr": {
+    "host": "in-blr.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Bengaluru"
+  },
+  "dnssbSgSin": {
+    "host": "sg-sin.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Singapore"
+  },
+  "dnssbKrSel": {
+    "host": "kr-sel.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Seoul"
+  },
+  "dnssbRuMow": {
+    "host": "ru-mow.doh.sb",
+    "docs": "https://dns.sb/doh/",
+    "cors": true,
+    "location": "Moscow"
+  },
+  "ethlink": {
+    "host": "eth.link",
+    "docs": "https://eth.link/",
+    "cors": true
+  }
+}

@@ -40,7 +40,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/dns-packet": "^5.2.0",
-    "dns-packet": "^5.2.4"
+    "dns-packet": "github:martinheidegger/dns-packet"
   },
   "devDependencies": {
     "abort-controller": "^3.0.0",

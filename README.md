@@ -1,5 +1,12 @@
 # doh-query
 
+## Archived
+
+This package/project is in pretty much any regard inferior to [dns-query](https://github.com/martinheidegger/dns-query).
+Use `dns-query`!
+
+## Info
+
 Node & Browser tested, Non-JSON DNS over HTTPS fetching with minimal dependencies.
 
 > DNS over HTTPS (DoH) is protocol designed for performing remote Domain Name System
